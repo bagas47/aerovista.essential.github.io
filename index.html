@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AeroVista Tour & Travel | Liburan Tanpa Ribet — Paket Wisata Domestik & Internasional</title>
+  <meta name="description" content="AeroVista Tour & Travel menyediakan paket wisata domestik dan internasional terbaik. Nikmati liburan tanpa ribet dengan fasilitas lengkap, hotel terverifikasi, dan harga transparan.">
+  <meta name="keywords" content="biro travel wisata, paket wisata labuan bajo, paket wisata raja ampat, tour jepang murah, tour turki, liburan tanpa ribet, travel agent indonesia">
+  
+  <!-- Open Graph / Meta Sosial -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AeroVista Tour & Travel — Liburan Tanpa Ribet">
+  <meta property="og:description" content="Jelajahi destinasi impian di Indonesia dan dunia bersama AeroVista Tour & Travel. Layanan profesional, jadwal pasti berangkat, dan konsultasi 24/7.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80">
+  <meta name="theme-color" content="#0284c7">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230284c7'%3E%3Cpath d='M2.01 21L23 12 2.01 3 2 10l15 2-15 2z'/%3E%3C/svg%3E">
+
+  <!-- Stylesheet Master -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Schema.org JSON-LD Structured Data for TravelAgency -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TravelAgency",
+    "name": "AeroVista Tour & Travel",
+    "description": "Biro perjalanan wisata resmi penyedia paket liburan domestik dan internasional dengan konsep Liburan Tanpa Ribet.",
+    "url": "https://aerovista-travel.com",
+    "telephone": "+6281234567890",
+    "email": "halo@aerovista-travel.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jl. Boulevard Raya No. 88, Kemang",
+      "addressLocality": "Jakarta Selatan",
+      "addressRegion": "DKI Jakarta",
+      "postalCode": "12730",
+      "addressCountry": "ID"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "08:00",
+      "closes": "21:00"
+    },
+    "priceRange": "Rp 2.500.000 - Rp 25.000.000"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="AeroVista Tour & Travel Homepage">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+        </svg>
+        <span>Aero<span class="highlight">Vista</span></span>
+      </a>
+
+      <!-- Desktop Menu -->
+      <nav aria-label="Menu Navigasi Utama">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="active">Home</a></li>
+          <li class="nav-item"><a href="paket.html">Katalog Paket Wisata</a></li>
+          <li class="nav-item"><a href="paket.html?filter=domestik">Wisata Domestik</a></li>
+          <li class="nav-item"><a href="paket.html?filter=internasional">Wisata Internasional</a></li>
+          <li class="nav-item"><a href="kontak.html">Kontak & Reservasi</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA Buttons -->
+      <div class="header-actions">
+        <a href="kontak.html" class="btn btn-outline" style="display: none; @media(min-width: 640px){display: inline-flex;}">Tanya Paket</a>
+        <a href="https://wa.me/6281234567890?text=Halo%20AeroVista,%20saya%20ingin%20tanya%20paket%20wisata%20terbaru" target="_blank" rel="noopener noreferrer" class="btn btn-wa touch-target">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"></path>
+          </svg>
+          Chat WhatsApp
+        </a>
+        <button class="mobile-toggle" aria-label="Buka Menu Navigasi" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Menu Navigasi Mobile">
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="paket.html">Katalog Paket Wisata</a></li>
+      <li><a href="paket.html?filter=domestik">Wisata Domestik</a></li>
+      <li><a href="paket.html?filter=internasional">Wisata Internasional</a></li>
+      <li><a href="kontak.html">Kontak & Form Booking</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-wrapper" aria-label="Hero Section Liburan Tanpa Ribet">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Hero Text Left -->
+        <div class="hero-content">
+          <div class="hero-tagline-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            Biro Wisata Terpercaya & Berlisensi
+          </div>
+          <h1 class="hero-title">
+            Liburan Tanpa Ribet,<br>
+            <span class="brand-gradient">Kenangan Abadi Dimulai Di Sini.</span>
+          </h1>
+          <p class="hero-desc">
+            Nikmati perjalanan impian Anda tanpa repot mengurus tiket pesawat, hotel, jadwal, dan transportasi. Tim tour leader bersertifikasi kami memastikan setiap momen liburan Anda aman, nyaman, dan berkesan.
+          </p>
+          <div class="hero-cta-group">
+            <a href="paket.html" class="btn btn-primary">
+              Eksplor Paket Wisata
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a href="kontak.html" class="btn btn-outline">
+              Konsultasi Rencana Trip
+            </a>
+          </div>
+
+          <!-- Social Proof Rating -->
+          <div class="hero-trust-row">
+            <div class="trust-avatar-stack">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80" alt="Traveler Puas">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80" alt="Traveler Puas">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80" alt="Traveler Puas">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80" alt="Traveler Puas">
+            </div>
+            <div class="trust-rating-text">
+              <div class="stars">★★★★★ <span style="color: var(--dark); font-weight: 700;">4.9 / 5.0</span></div>
+              <span>Dipercaya lebih dari 10.000+ pelanggan bahagia</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Carousel Right -->
+        <div class="hero-slider-card">
+          <div class="carousel-viewport">
+            <!-- Slide 1: Labuan Bajo -->
+            <div class="carousel-slide active">
+              <img src="https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?w=900&auto=format&fit=crop&q=85" alt="Keindahan Labuan Bajo Phinisi Tour">
+              <div class="carousel-overlay">
+                <span class="carousel-badge">Destinasi Terfavorit 2026</span>
+                <h3 class="carousel-caption-title">Labuan Bajo Sunset Phinisi</h3>
+                <p class="carousel-caption-sub">Pulau Padar, Pink Beach & Komodo Dragon</p>
+              </div>
+            </div>
+
+            <!-- Slide 2: Raja Ampat -->
+            <div class="carousel-slide">
+              <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=900&auto=format&fit=crop&q=85" alt="Surga Bawah Laut Raja Ampat">
+              <div class="carousel-overlay">
+                <span class="carousel-badge">Surga Bahari Dunia</span>
+                <h3 class="carousel-caption-title">Raja Ampat Wayag & Piaynemo</h3>
+                <p class="carousel-caption-sub">Gugusan Karst & Terumbu Karang Eksotis</p>
+              </div>
+            </div>
+
+            <!-- Slide 3: Japan Sakura -->
+            <div class="carousel-slide">
+              <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=900&auto=format&fit=crop&q=85" alt="Pesona Musim Bunga Sakura di Jepang">
+              <div class="carousel-overlay">
+                <span class="carousel-badge">Internasional Best Seller</span>
+                <h3 class="carousel-caption-title">Japan Golden Route Sakura</h3>
+                <p class="carousel-caption-sub">Tokyo, Kyoto, Osaka & Gunung Fuji</p>
+              </div>
+            </div>
+
+            <!-- Slide 4: Cappadocia -->
+            <div class="carousel-slide">
+              <img src="https://images.unsplash.com/photo-1527838832700-5059252407fa?w=900&auto=format&fit=crop&q=85" alt="Penerbangan Balon Udara Cappadocia Turki">
+              <div class="carousel-overlay">
+                <span class="carousel-badge">Magical Experience</span>
+                <h3 class="carousel-caption-title">Magical Cappadocia & Istanbul</h3>
+                <p class="carousel-caption-sub">Sensasi Balon Udara & Kota Bersejarah</p>
+              </div>
+            </div>
+
+            <!-- Navigation Controls -->
+            <div class="carousel-dots">
+              <button class="carousel-dot active" aria-label="Slide 1"></button>
+              <button class="carousel-dot" aria-label="Slide 2"></button>
+              <button class="carousel-dot" aria-label="Slide 3"></button>
+              <button class="carousel-dot" aria-label="Slide 4"></button>
+            </div>
+
+            <div class="carousel-controls">
+              <button class="carousel-arrow prev" aria-label="Slide Sebelumnya">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M15 19l-7-7 7-7"/>
+                </svg>
+              </button>
+              <button class="carousel-arrow next" aria-label="Slide Selanjutnya">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M9 5l7 7-7 7"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-cloud-decor"></div>
+  </section>
+
+  <!-- Quick Package Finder Bar (Inspirasi Mockup) -->
+  <section class="container" style="position: relative; z-index: 25;">
+    <div class="search-widget-card reveal-init">
+      <div class="search-tabs">
+        <button class="search-tab-btn active" data-type="all">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+          Semua Paket
+        </button>
+        <button class="search-tab-btn" data-type="domestik">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>
+          Paket Domestik
+        </button>
+        <button class="search-tab-btn" data-type="internasional">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 17.93V18a2 2 0 0 0-2-2h-1v-2h4a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2h-1V7a2 2 0 0 0-2-2h-1.07A8 8 0 0 1 20 12a7.92 7.92 0 0 1-7 7.93z"/></svg>
+          Internasional
+        </button>
+        <button class="search-tab-btn" data-type="corporate">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+          Corporate & Group
+        </button>
+      </div>
+
+      <form id="quickSearchForm" class="search-form-grid" action="paket.html" method="GET">
+        <input type="hidden" id="searchCategory" name="cat" value="all">
+
+        <div class="search-field-group">
+          <label class="search-field-label" for="searchDest">Tujuan Wisata</label>
+          <div class="search-input-box">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+            <select id="searchDest" name="dest">
+              <option value="">Semua Destinasi</option>
+              <option value="labuan-bajo">Labuan Bajo (NTT)</option>
+              <option value="raja-ampat">Raja Ampat (Papua)</option>
+              <option value="bali">Bali Eksotis</option>
+              <option value="jepang">Jepang (Tokyo-Kyoto-Osaka)</option>
+              <option value="turki">Turki (Istanbul-Cappadocia)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="search-field-group">
+          <label class="search-field-label" for="searchMonth">Bulan Berangkat</label>
+          <div class="search-input-box">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11z"/></svg>
+            <select id="searchMonth" name="month">
+              <option value="">Kapan Saja</option>
+              <option value="okt">Oktober 2026</option>
+              <option value="nov">November 2026</option>
+              <option value="des">Desember 2026 (Peak Season)</option>
+              <option value="jan">Januari 2027</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="search-field-group">
+          <label class="search-field-label" for="searchPax">Jumlah Peserta</label>
+          <div class="search-input-box">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+            <select id="searchPax" name="pax">
+              <option value="1">1 Orang (Solo Trip)</option>
+              <option value="2">2 Orang (Pasangan)</option>
+              <option value="4">3-5 Orang (Keluarga)</option>
+              <option value="10">10+ Orang (Group/Instansi)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="search-field-group">
+          <label class="search-field-label" for="searchDuration">Durasi Trip</label>
+          <div class="search-input-box">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+            <select id="searchDuration" name="durasi">
+              <option value="">Semua Durasi</option>
+              <option value="3">3 Hari 2 Malam</option>
+              <option value="4">4 Hari 3 Malam</option>
+              <option value="7">7 Hari atau Lebih</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <button type="submit" class="btn btn-primary" style="width: 100%; height: 48px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            Cari Paket
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- 4 Pillars Value Proposition (Sesuai Referensi Gambar) -->
+  <section class="value-props-section" aria-label="Keunggulan AeroVista Travel">
+    <div class="container">
+      <div class="value-props-grid">
+        <!-- Prop 1 -->
+        <div class="prop-card reveal-init">
+          <div class="prop-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99zM11 16h2v2h-2zm0-6h2v4h-2z"/>
+            </svg>
+          </div>
+          <h3 class="prop-title">Best Price Guarantee</h3>
+          <p class="prop-desc">Biaya transparan tanpa biaya tersembunyi (*zero hidden cost*). Semua fasilitas sudah dirinci sejak awal pemesanan.</p>
+        </div>
+
+        <!-- Prop 2 -->
+        <div class="prop-card reveal-init">
+          <div class="prop-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+            </svg>
+          </div>
+          <h3 class="prop-title">100% Pasti Berangkat</h3>
+          <p class="prop-desc">Legalitas resmi terdaftar Kemenparekraf dengan garansi kepastian jadwal penerbangan dan akomodasi hotel berbintang.</p>
+        </div>
+
+        <!-- Prop 3 -->
+        <div class="prop-card reveal-init">
+          <div class="prop-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 1a9 9 0 0 0-9 9v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-3.87 3.13-7 7-7s7 3.13 7 7v2h-4v8h3c1.66 0 3-1.34 3-3v-7a9 9 0 0 0-9-9z"/>
+            </svg>
+          </div>
+          <h3 class="prop-title">24/7 Travel Assistance</h3>
+          <p class="prop-desc">Tour leader dan customer service berdedikasi siap mendampingi kebutuhan darurat dan kenyamanan Anda sepanjang perjalanan.</p>
+        </div>
+
+        <!-- Prop 4 -->
+        <div class="prop-card reveal-init">
+          <div class="prop-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
+            </svg>
+          </div>
+          <h3 class="prop-title">Custom Private & Corporate</h3>
+          <p class="prop-desc">Rancangan itinerary eksklusif fleksibel sesuai kebutuhan liburan keluarga, honeymoon, atau outing kantor instansi Anda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Packages Section -->
+  <section class="container" style="padding: 3rem 1.25rem 5rem;" aria-label="Paket Wisata Populer">
+    <div class="section-header">
+      <span class="section-eyebrow">Destinasi Pilihan Unggulan</span>
+      <h2 class="section-title draw-in-underline">Paket Wisata Terpopuler</h2>
+      <p class="section-subtitle">Pilihan rute terbaik yang paling diminati traveler dengan ulasan bintang 5 dan dokumentasi lengkap.</p>
+    </div>
+
+    <div class="packages-grid">
+      <!-- Card 1: Labuan Bajo -->
+      <article class="package-card reveal-init">
+        <div class="package-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?w=800&auto=format&fit=crop&q=80" alt="Paket Wisata Labuan Bajo Sunset Phinisi">
+          <span class="package-card-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"/></svg>
+            3 Hari 2 Malam
+          </span>
+          <span class="package-card-category">Domestik</span>
+        </div>
+        <div class="package-card-body">
+          <div class="package-card-loc">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+            Nusa Tenggara Timur, Indonesia
+          </div>
+          <h3 class="package-card-title">Labuan Bajo Sunset Phinisi Liveaboard</h3>
+          <ul class="package-card-features">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              Kapal Phinisi Semi-Luxury (Kamar AC)
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              Trekking Pulau Padar & Pink Beach
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              Free Dokumentasi Drone & Mirrorless
+            </li>
+          </ul>
+          <div class="package-card-footer">
+            <div class="price-box">
+              <span class="price-prefix">Harga mulai dari</span>
+              <span class="price-amount">Rp 3.450.000</span>
+            </div>
+            <div class="package-card-rating">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              4.9 (340 Ulasan)
+            </div>
+          </div>
+          <div class="package-card-actions">
+            <a href="itinerary-labuan-bajo.html" class="btn btn-outline" style="width: 100%;">
+              Lihat Itinerary Lengkap
+            </a>
+            <a href="https://wa.me/6281234567890?text=Halo%20AeroVista,%20saya%20tertarik%20dengan%20Paket%20Labuan%20Bajo%20Sunset%20Phinisi" target="_blank" rel="noopener noreferrer" class="btn btn-wa icon-btn" aria-label="Tanya via WA">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"></path></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2: Raja Ampat -->
+      <article class="package-card reveal-init">
+        <div class="package-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800&auto=format&fit=crop&q=80" alt="Paket Wisata Raja Ampat Wayag & Piaynemo">
+          <span class="package-card-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"/></svg>
+            4 Hari 3 Malam
+          </span>
+          <span class="package-card-category">Domestik Eksklusif</span>
+        </div>
+        <div class="package-card-body">
+          <div class="package-card-loc">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+            Papua Barat Daya, Indonesia
+          </div>
+          <h3 class="package-card-title">Raja Ampat Wayag & Piaynemo Paradise</h3>
+          <ul class="package-card-features">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              Eksplor Puncak Wayag 1 & 2
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              Snorkeling Manta Point & Telaga Bintang
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              Eco-Resort Water Cottage Tepi Laut
+            </li>
+          </ul>
+          <div class="package-card-footer">
+            <div class="price-box">
+              <span class="price-prefix">Harga mulai dari</span>
+              <span class="price-amount">Rp 6.850.000</span>
+            </div>
+            <div class="package-card-rating">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              4.9 (185 Ulasan)
+            </div>
+          </div>
+          <div class="package-card-actions">
+            <a href="itinerary-raja-ampat.html" class="btn btn-outline" style="width: 100%;">
+              Lihat Itinerary Lengkap
+            </a>
+            <a href="https://wa.me/6281234567890?text=Halo%20AeroVista,%20saya%20tertarik%20dengan%20Paket%20Raja%20Ampat" target="_blank" rel="noopener noreferrer" class="btn btn-wa icon-btn" aria-label="Tanya via WA">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"></path></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3: Japan Sakura -->
+      <article class="package-card reveal-init">
+        <div class="package-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&auto=format&fit=crop&q=80" alt="Paket Wisata Jepang Tokyo Kyoto Osaka">
+          <span class="package-card-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"/></svg>
+            7 Hari 6 Malam
+          </span>
+          <span class="package-card-category">Internasional</span>
+        </div>
+        <div class="package-card-body">
+          <div class="package-card-loc">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+            Tokyo, Kyoto, Osaka - Jepang
+          </div>
+          <h3 class="package-card-title">Japan Golden Route & Mount Fuji Sakura</h3>
+          <ul class="package-card-features">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              Tiket Pesawat PP ANA / Garuda Indonesia
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              Bullet Train Shinkansen & Hotel Bintang 4
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              Bimbingan Pengurusan Visa Jepang Gratis
+            </li>
+          </ul>
+          <div class="package-card-footer">
+            <div class="price-box">
+              <span class="price-prefix">Harga mulai dari</span>
+              <span class="price-amount">Rp 18.900.000</span>
+            </div>
+            <div class="package-card-rating">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              4.9 (420 Ulasan)
+            </div>
+          </div>
+          <div class="package-card-actions">
+            <a href="itinerary-jepang-sakura.html" class="btn btn-outline" style="width: 100%;">
+              Lihat Itinerary Lengkap
+            </a>
+            <a href="https://wa.me/6281234567890?text=Halo%20AeroVista,%20saya%20tertarik%20dengan%20Paket%20Japan%20Golden%20Route" target="_blank" rel="noopener noreferrer" class="btn btn-wa icon-btn" aria-label="Tanya via WA">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"></path></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div style="text-align: center; margin-top: 3.5rem;">
+      <a href="paket.html" class="btn btn-primary">
+        Lihat Semua Paket Wisata Lainnya (15+ Pilihan)
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- How to Book 4 Steps (Inspirasi Mockup) -->
+  <section class="how-to-book-section" aria-label="Cara Pemesanan Liburan">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Alur Reservasi Cepat</span>
+        <h2 class="section-title draw-in-underline">Cara Mudah Booking Liburan Anda</h2>
+        <p class="section-subtitle">Hanya butuh 4 langkah mudah untuk mewujudkan liburan impian tanpa perlu ribet mengurus detail teknis.</p>
+      </div>
+
+      <div class="steps-grid">
+        <!-- Step 1 -->
+        <div class="step-card reveal-init">
+          <span class="step-number">01</span>
+          <div class="step-icon-box">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+          </div>
+          <h3 class="step-title">Pilih Destinasi</h3>
+          <p class="step-desc">Tentukan rute liburan favorit Anda dari katalog domestik atau mancanegara kami.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card reveal-init">
+          <span class="step-number">02</span>
+          <div class="step-icon-box">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+          </div>
+          <h3 class="step-title">Pilih Paket & Itinerary</h3>
+          <p class="step-desc">Pelajari breakdown hari-per-hari, sesuaikan tanggal keberangkatan dan jumlah rombongan.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card reveal-init">
+          <span class="step-number">03</span>
+          <div class="step-icon-box">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"/></svg>
+          </div>
+          <h3 class="step-title">Konfirmasi & DP Aman</h3>
+          <p class="step-desc">Konsultasi via WhatsApp dengan travel advisor kami, konfirmasi ketersediaan seat & bayar uang muka aman.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step-card reveal-init">
+          <span class="step-number">04</span>
+          <div class="step-icon-box">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>
+          </div>
+          <h3 class="step-title">Berangkat & Nikmati Trip</h3>
+          <p class="step-desc">Dapatkan e-ticket, panduan persiapan, dan siap menikmati liburan tanpa ribet bersama tour leader kami!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Corporate Outing & Gathering Banner -->
+  <section class="container">
+    <div class="corp-banner reveal-init">
+      <div>
+        <span class="corp-badge">Layanan Bisnis & Korporat</span>
+        <h2 class="corp-title">Rencanakan Corporate Gathering & Incentive Trip Perusahaan Anda</h2>
+        <p class="corp-desc">Kami berpengalaman menangani trip perusahaan, BUMN, instansi pemerintah, dan komunitas besar hingga 500+ peserta. Termasuk gala dinner, fun team building, merchandise, dan dokumentasi sinematik.</p>
+        <a href="kontak.html?type=corporate" class="btn btn-accent">
+          Minta Penawaran Proposal Korporat
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+      <div style="text-align: center;">
+        <div style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); border-radius: var(--radius-lg); padding: 2rem;">
+          <div style="font-size: 2.75rem; font-weight: 800; color: var(--accent-gold); margin-bottom: 0.25rem;">120+</div>
+          <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">Perusahaan & Instansi</div>
+          <div style="font-size: 0.85rem; opacity: 0.8;">Telah mempercayakan agenda tahunan mereka kepada AeroVista Travel</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Counter (Sesuai Referensi Gambar) -->
+  <section class="container">
+    <div class="stats-banner reveal-init">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number">45+</span>
+          <span class="stat-label">Destinasi Domestik & Global</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">10K+</span>
+          <span class="stat-label">Traveler Terlayani Puas</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">99.4%</span>
+          <span class="stat-label">Tingkat Kepuasan Pelanggan</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">24/7</span>
+          <span class="stat-label">Layanan Pendampingan Trip</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating WhatsApp Action -->
+  <a href="https://wa.me/6281234567890?text=Halo%20AeroVista,%20saya%20ingin%20tanya%20paket%20wisata%20terbaru" target="_blank" rel="noopener noreferrer" class="floating-wa-btn" aria-label="Konsultasi WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"></path>
+    </svg>
+    <span>Tanya Trip via WA</span>
+  </a>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand Info -->
+        <div>
+          <a href="index.html" class="brand-logo" style="color: var(--surface); margin-bottom: 1.25rem;">
+            <svg viewBox="0 0 24 24" fill="currentColor" style="color: var(--primary-300);">
+              <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+            </svg>
+            <span>Aero<span style="color: var(--accent-orange);">Vista</span></span>
+          </a>
+          <p style="color: var(--muted-light); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+            Biro perjalanan wisata profesional berlisensi resmi. Mewujudkan perjalanan impian dengan konsep "Liburan Tanpa Ribet" untuk solo traveler, keluarga, dan rombongan korporat.
+          </p>
+          <div class="footer-badge-box">
+            <div class="footer-badge-title">✓ LEGALITAS RESMI TERDAFTAR</div>
+            <div class="footer-badge-desc">SK Kemenkumham: AHU-0038921.AH.01.02. Tanda Daftar Usaha Pariwisata (TDUP) Kemenparekraf No. 912010834190.</div>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="footer-col-title">Navigasi Cepat</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Halaman Utama</a></li>
+            <li><a href="paket.html">Katalog Semua Paket</a></li>
+            <li><a href="paket.html?filter=domestik">Paket Wisata Domestik</a></li>
+            <li><a href="paket.html?filter=internasional">Paket Wisata Mancanegara</a></li>
+            <li><a href="kontak.html">Kontak & Reservasi</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Paket Favorit -->
+        <div>
+          <h4 class="footer-col-title">Paket Favorit</h4>
+          <ul class="footer-links">
+            <li><a href="itinerary-labuan-bajo.html">Labuan Bajo 3D2N Phinisi</a></li>
+            <li><a href="itinerary-raja-ampat.html">Raja Ampat 4D3N Wayag</a></li>
+            <li><a href="itinerary-jepang-sakura.html">Jepang Golden Route 7D6N</a></li>
+            <li><a href="itinerary-turki-balon.html">Cappadocia & Istanbul 8D7N</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Kantor & Kontak -->
+        <div>
+          <h4 class="footer-col-title">Kantor Operasional</h4>
+          <p style="color: var(--muted-light); font-size: 0.9rem; line-height: 1.6; margin-bottom: 0.75rem;">
+            Jl. Boulevard Raya No. 88, Kemang, Jakarta Selatan 12730
+          </p>
+          <p style="color: var(--muted-light); font-size: 0.9rem; margin-bottom: 0.5rem;">
+            <strong>WhatsApp:</strong> +62 812-3456-7890
+          </p>
+          <p style="color: var(--muted-light); font-size: 0.9rem; margin-bottom: 0.5rem;">
+            <strong>Email:</strong> halo@aerovista-travel.com
+          </p>
+          <p style="color: var(--muted-light); font-size: 0.85rem; margin-top: 1rem;">
+            Jam Layanan: Setiap Hari 08.00 - 21.00 WIB
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 AeroVista Tour & Travel. Hak Cipta Dilindungi Undang-Undang.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="kontak.html">Syarat & Ketentuan</a>
+          <a href="kontak.html">Kebijakan Privasi</a>
+          <a href="kontak.html">Bantuan</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Master JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
